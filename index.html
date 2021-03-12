@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Login</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col align-self-center col-md-4 offset-md-4">
+				<div class="card" style="margin-top: 6em;">
+					<div class="card-header">
+					  <h2>Login </h2>
+					</div>
+					<div class="card-body">
+						<form action="login.php" method="POST">
+						  <div class="form-group">
+							<label for="user_id">Username</label>
+							<input type="text" class="form-control" name="user_id" id="userId" placeholder="Enter Username">
+						  </div>
+						  <div class="form-group">
+							<label for="password">Password</label>
+							<input type="password" class="form-control" name="passwd" id="password" placeholder="Password">
+						  </div>
+						  <div class="text-center">
+							<button type="submit" class="btn btn-primary text-center">Submit</button>
+						  </div>
+						</form>
+					</div>
+				  </div>
+			</div>
+		</div>
+		
+	</div>
+</body>
+</html>
